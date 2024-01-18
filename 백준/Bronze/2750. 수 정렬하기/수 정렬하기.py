@@ -1,6 +1,12 @@
-N = int(input())
+n = int(input())
 
-li = [int(input()) for i in range(N)]
+li = []
+
+for i in range(n):
+    nums = int(input())
+    li.append(nums)
 li.sort()
+
 for j in li:
     print(j)
+
